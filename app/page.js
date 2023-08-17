@@ -1,11 +1,10 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 
 import dividerDesktop from '@public/images/pattern-divider-desktop.svg'
 import dividerMobile from '@public/images/pattern-divider-mobile.svg'
 import dice from '@public/images/icon-dice.svg'
-import { useEffect } from 'react'
 
 const Home = () => {
   const API_LINK = "https://api.adviceslip.com/advice"
