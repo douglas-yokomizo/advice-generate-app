@@ -1,34 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Advice Generator App
 
-## Getting Started
+ This a React project that uses Next.js and Tailwind CSS to create a simple web app that displays random advice from an API. The app has a minimalist design and a dice button that allows the user to get new advice.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+To run the project locally, you need to have Node.js and npm installed on your machine. Then, follow these steps:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository or download the ZIP file.
+2. Navigate to the project folder and run `npm install` to install the dependencies.
+3. Run `npm run dev` to start the development server.
+4. Open `http://localhost:3000` in your browser to see the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The app shows a random piece of advice on the main screen, along with its ID number. You can click on the dice button to get a new piece of advice. The app uses the [Advice Slip JSON API](^1^) to fetch the data.
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project was inspired by the [Random Advice Generator](^3^) challenge from [Frontend Mentor](^4^).
